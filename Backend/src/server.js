@@ -14,7 +14,7 @@ const app = express();
 // ✅ Proper CORS (Fix for frontend connection)
 app.use(
   cors({
-    origin: "http://localhost:5173", // 🔥 Frontend URL
+    origin: "https://college-placement-yppn.onrender.com", // 🔥 Frontend URL
     credentials: true,
   })
 );
